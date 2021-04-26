@@ -8,7 +8,9 @@ Não deveríamos utilizar o Docker-compose para fazer esse desafio.
 
 Todos as imagens utilizadas neste desafio estão dentro do docker hub:
 > https://hub.docker.com/repository/docker/ferraresipedro/pfa-des-01-db
+> 
 > https://hub.docker.com/repository/docker/ferraresipedro/pfa-des-01-bk
+> 
 > https://hub.docker.com/repository/docker/ferraresipedro/pfa-des-01-sv
 
 Para testar e executar esse desafio, basta seguir os passos abaixo
