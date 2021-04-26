@@ -57,8 +57,11 @@ Por fim, vamos popular nosso banco de dados com o seguinte comando:
 $ docker exec -i database mysql -u root --password=root < ./database/scripts.sql
 ```
 
-Lembrando que é importante esperar o serviço do bando de dados subir corretamente. Como estamos rodando o container *desatachado*, para verificar se está tudo ok podemos utilizar o comando `docker logs database` para exibir os logs do container do Banco de Dados.
+Lembrando que é importante esperar o serviço do bando de dados subir corretamente. Como estamos rodando o container *desatachado*, para verificar se está tudo ok podemos utilizar o comando `docker logs database` para exibir os logs do container do Banco de Dados. 
 
+![desafio_pfa_01-1](https://user-images.githubusercontent.com/8821413/116138057-bb2ef500-a6aa-11eb-96f8-32436e8cba9f.png)
+
+Caso nos logs do container do banco de dados possuir uma mensagem como a da imagem acima, os comandos para criação da database e popular a tabela podem ser executados tranquilamente.
 
 ## Aplicação
 
