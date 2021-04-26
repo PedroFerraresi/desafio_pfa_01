@@ -108,4 +108,4 @@ $ docker run --network=pfa_desafio_01 -p 8080:80 --name server -d --rm ferraresi
 
 Agora que temos todos os nossos serviços e containers de pé, basta abrir o navegador e digitar `localhost:8080` no barra de navegação. Se tudo estiver ok, teremos o seguinte resultado:
 
-![Resultado do Desafio]
+![desafio_pfa_01](https://user-images.githubusercontent.com/8821413/116136860-45765980-a6a9-11eb-8faf-fdbb42ed855e.png)
