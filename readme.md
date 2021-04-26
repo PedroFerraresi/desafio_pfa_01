@@ -81,7 +81,7 @@ $ cd ..
 Novamente dentro do diretório raiz da aplicação, vamos baixar a imagem do docker hub:
 
 ```
-$ Pulling from ferraresipedro/pfa-des-01-bk
+$ docker pull ferraresipedro/pfa-des-01-bk
 ```
 
 Com a imagem na máquina, vamos executar o container com o comando:
@@ -98,12 +98,12 @@ $ docker exec backend node index.js
 
 ## NGIX
 
-Vamos baixar a imagen do Nginx com o seguinte comando:
+Abra uma nova aba em no terminal para que possamos baixar a imagen do Nginx com o seguinte comando:
 ```
 $ docker pull ferraresipedro/pfa-des-01-sv
 ```
 
-Com a imagem na máquina, vamos executar o container com o comando:
+Com a imagem na máquina, navegue até o diretório raiz da aplicação e vamos executar o container com o comando:
 
 ```
 $ docker run --network=pfa_desafio_01 -p 8080:80 --name server -d --rm ferraresipedro/pfa-des-01-sv
